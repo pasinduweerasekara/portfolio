@@ -1,45 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Pasindu Weerasekara</title>
 </head>
-<body>
+
+<body id="body">
     <nav id="navbar">
-        <div id="nav-logo"><h1>PW</h1></div>
+        <a href="#">
+            <div id="nav-logo">
+                <h1>PW</h1>
+            </div>
+        </a>
         <ul id="nav-links-container">
-            <li class="navlink"><a class="nav-link-text" href="#">About</a></li>
-            <li class="navlink"><a class="nav-link-text" href="#">Work</a></li>
-            <li class="navlink"><a class="nav-link-text" href="#">jej</a></li>
-            <li class="navlink"><a class="nav-link-text" href="#">Contact</a></li>
+            <li class="navlink"><a class="nav-link-text" href="#about">About</a></li>
+            <li class="navlink"><a class="nav-link-text" href="#Skills">Skills</a></li>
+            <li class="navlink"><a class="nav-link-text" href="#projects">Projects</a></li>
+            <li class="navlink"><a class="nav-link-text" href="#contact">Contact</a></li>
+            <li class="navlink"><a href="./statics/output.pdf"><button class="nav-link-text" id="cv-btn">Download
+                        CV</button></a></li>
         </ul>
         <div id="hamburger-btn">
             <span></span>
             <span></span>
             <span></span>
-          </div>
+        </div>
     </nav>
-<div id="container">
-    <div id="hero">
+    <div id="container">
+        <div id="hero">
 
-        <div id="hero-img-container">
-            <img src="./statics/img.jpg" alt="img.jpg" id="hero-img">
+            <div id="hero-img-container">
+                <img src="./statics/img.jpg" alt="img.jpg" id="hero-img">
+            </div>
+
+            <div id="hero-text-container">
+                <h1 id="hero-title">Hi, I am Pasindu,</h1>
+                <p id="hero-text">Welcome to my digital playground, where I dive into the exciting world of Full Stack
+                    Development. Whether it's crafting captivating frontend designs or diving into the backend
+                    mysteries, I'm all about bringing ideas to life in the most fun and innovative ways possible</p>
+                <div id="social-media">
+                    <a href="https://github.com/pasinduweerasekara"><img src="./statics/github.png"
+                            alt="./statics/github.png" class="social-icon"></a>
+                    <a href="https://www.linkedin.com/in/pasindu-weerasekara-88b064175/"><img
+                            src="./statics/linkedin.png" alt="./statics/linkedin.png" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+        <h3 class="section-heading">ABOUT ME</h3>
+        <div id="about">
+            <div class="section-img-container">
+                <img src="./statics/img2.jpg" alt="./statics/img2.jpg" class="section-img">
+            </div>
+            <div id="description-container">
+                <h1 class="section-title">Here are some details about me,</h1>
+                <p class="section-description">Hey there! I'm <span id="highlight">Pasindu Weerasekara</span>, currently
+                    pursuing my undergraduate degree at the <span id="highlight">University of Kelaniya</span>. With a
+                    passion for problem-solving and a love for all things tech, I've delved into the realms of <span
+                        id="highlight">Computer Studies</span>, <span id="highlight">Physics</span>, and <span
+                        id="highlight">Electronics</span> during my academic journey.!</p>
+                <p class="section-description">Programming isn't just a hobby for me; it's a way of life. From diving
+                    into the intricacies of web development to exploring the endless possibilities of mobile application
+                    development, I've soaked up knowledge in various areas including <span id="highlight">Database
+                        Management Systems (DBMS)</span>,<span id="highlight"> Object-Oriented Programming (OOP)</span>,
+                    and <span id="highlight">Event-Driven Programming</span>.</p>
+                <p class="section-description">Throughout my university courses, I've had the opportunity to roll up my
+                    sleeves and get hands-on with projects using <span id="highlight">Java</span>, <span
+                        id="highlight">HTML</span>, <span id="highlight">CSS</span>, <span
+                        id="highlight">JavaScript</span>, and <span id="highlight">Kotlin</span>. Whether it's crafting
+                    dynamic web pages or building robust mobile applications, I thrive on the challenges and creativity
+                    that programming offers.</p>
+                <p class="section-description">Alongside these technical pursuits, I've also delved into the realms of
+                    <span id="highlight">Software Project Management</span> and <span id="highlight">Software Quality
+                        Assurance</span>, recognizing the importance of effective project planning and meticulous
+                    attention to detail in delivering high-quality software solutions.</p>
+                <p class="section-description">My journey has led me to develop a strong foundation in both frontend and
+                    backend development, with hands-on experience in <span id="highlight">React.js</span> and <span
+                        id="highlight">Node.js</span>. I'm particularly drawn to the dynamic realm of web development
+                    and aspire to become a fullstack developer, combining my passion for creativity with my technical
+                    skills to build engaging and innovative web applications.My heart lies in web development, and my
+                    goal is to become a skilled Full Stack Developer. I'm excited to continue learning and growing in
+                    this ever-evolving field, pushing boundaries and creating meaningful digital experiences along the
+                    way.</p>
+            </div>
+        </div>
+        <div id="Skills">
+            <h3 class="section-heading">My Skills</h3>
+            <h1 class="section-title">The Programming languages and tools that i am currently familier with,</h1>
+            <div id="skills-img-container">
+                <img src="./statics/html.svg" alt="HTML logo" class="skills-logo">
+                <img src="./statics/css.svg" alt="CSS logo" class="skills-logo">
+                <img src="./statics/javascript.svg" alt="Js logo" class="skills-logo">
+                <img src="./statics/php.svg" alt="php logo" class="skills-logo">
+                <img src="./statics/react-js.svg" alt="React.js logo" class="skills-logo">
+                <img src="./statics/node-js.svg" alt="Node.js logo" class="skills-logo">
+                <img src="./statics/java.svg" alt="java logo" class="skills-logo">
+                <img src="./statics/my-sql.svg" alt="mysql logo" class="skills-logo">
+            </div>
         </div>
 
-        <div id="hero-text-container">
-            <h1 id="hero-title">Hi, I am Pasindu,</h1>
-        <p id="hero-text">Welcome to my digital playground, where I dive into the exciting world of Full Stack Development. Whether it's crafting captivating frontend designs or diving into the backend mysteries, I'm all about bringing ideas to life in the most fun and innovative ways possible</p>
-        <div id="social-media">
-            <a href="https://github.com/pasinduweerasekara"><img src="./statics/github.png" alt="./statics/github.png" class="social-icon"></a>
-            <a href="https://www.linkedin.com/in/pasindu-weerasekara-88b064175/"><img src="./statics/linkedin.png" alt="./statics/linkedin.png" class="social-icon"></a>
-        </div>
-        </div>
-       
+        <div id="projects">
+            <h3 class="section-heading">My Works</h3>
+            <h1 class="section-title">Here are some works that I have involved,</h1>
+            <div id="project-card-container">
+                <div class="project-card">
 
+                    <div class="project-img-container">
+                        <h2 class="project-title">Travel Tommorow</h2>
+                        <img src="./statics/traveltommorow.png" alt="traveltommorow.png" class="project-image">
+                    </div>
+                    <div class="description">
+                        <p class="project-description-text"><a class="link"
+                                href="https://traveltommorow.com">Traveltommmorow.com</a> is a travel guide website that
+                            we have developes as an undergraduate project.</p>
+                        <p class="project-description-text">Skills involved.</p>
+                        <div class="skills-tag-container">
+                            <span class="skills-tag">javascript</span>
+                            <span class="skills-tag">React.js</span>
+                            <span class="skills-tag">Node.js</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-img-container">
+                        <h2 class="project-title">Travel Tommorow</h2>
+                        <img src="./statics/traveltommorow.png" alt="traveltommorow.png" class="project-image">
+                    </div>
+                    <div class="description">
+                        <p class="project-description-text"><a class="link"
+                                href="https://traveltommorow.com">Traveltommmorow.com</a> is a travel guide website that
+                            we have developes as an undergraduate project.</p>
+                        <p class="project-description-text">Skills involved.</p>
+                        <div class="skills-tag-container">
+                            <span class="skills-tag">javascript</span>
+                            <span class="skills-tag">React.js</span>
+                            <span class="skills-tag">Node.js</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-img-container">
+                        <h2 class="project-title">Travel Tommorow</h2>
+                        <img src="./statics/traveltommorow.png" alt="traveltommorow.png" class="project-image">
+                    </div>
+                    <div class="description">
+                        <p class="project-description-text"><a class="link"
+                                href="https://traveltommorow.com">Traveltommmorow.com</a> is a travel guide website that
+                            we have developes as an undergraduate project.</p>
+                        <p class="project-description-text">Skills involved.</p>
+                        <div class="skills-tag-container">
+                            <span class="skills-tag">javascript</span>
+                            <span class="skills-tag">React.js</span>
+                            <span class="skills-tag">Node.js</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-img-container">
+                        <h2 class="project-title">Travel Tommorow</h2>
+                        <img src="./statics/traveltommorow.png" alt="traveltommorow.png" class="project-image">
+                    </div>
+                    <div class="description">
+                        <p class="project-description-text"><a class="link"
+                                href="https://traveltommorow.com">Traveltommmorow.com</a> is a travel guide website that
+                            we have developes as an undergraduate project.</p>
+                        <p class="project-description-text">Skills involved.</p>
+                        <div class="skills-tag-container">
+                            <span class="skills-tag">javascript</span>
+                            <span class="skills-tag">React.js</span>
+                            <span class="skills-tag">Node.js</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    </div>
+    <footer id="footer">
+
+    </footer>
 </body>
 <script src="./app.js"></script>
+
 </html>
