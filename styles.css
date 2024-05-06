@@ -429,8 +429,9 @@ padding-bottom: 1rem;
 #hero-text-container{
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-between;
 width: 60%;
+height: 50%;
 }
 #hero-img-container,.section-img-container{
 width: 200px;
