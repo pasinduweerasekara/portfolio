@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./statics/favicon.ico" type="image/x-icon">
     <title>Pasindu Weerasekara</title>
 </head>
 
@@ -20,7 +21,8 @@
             <li class="navlink"><a class="nav-link-text" href="#Skills">Skills</a></li>
             <li class="navlink"><a class="nav-link-text" href="#projects">Projects</a></li>
             <li class="navlink"><a class="nav-link-text" href="#contacts">Contact</a></li>
-            <li class="navlink"><a href="./statics/pasindu_weerasekara_cv.pdf"><button class="nav-link-text" id="cv-btn">Download
+            <li class="navlink"><a href="./statics/pasindu_weerasekara_cv.pdf"><button class="nav-link-text"
+                        id="cv-btn">Download
                         CV</button></a></li>
         </ul>
         <div id="hamburger-btn">
@@ -37,7 +39,7 @@
             </div>
 
             <div id="hero-text-container">
-                <h1 id="hero-title">Hi, I am Pasindu,</h1>
+                <h1 id="hero-title">Hi, I am <span id="type"></span>|</h1>
                 <p id="hero-text">Welcome to my digital playground, where I dive into the exciting world of Full Stack
                     Development. Whether it's crafting captivating frontend designs or diving into the backend
                     mysteries, I'm all about bringing ideas to life in the most fun and innovative ways possible</p>
@@ -118,31 +120,39 @@
                             we have developes as an undergraduate project.</p>
                         <p class="project-description-text">Skills involved.</p>
                         <div class="skills-tag-container">
+                            <span class="skills-tag">ongoing</span>
                             <span class="skills-tag">javascript</span>
                             <span class="skills-tag">React.js</span>
                             <span class="skills-tag">Node.js</span>
+                            <span class="skills-tag">Express.js</span>
                         </div>
 
                     </div>
                 </div>
+
 
                 <div class="project-card">
-
-                    <div class="project-img-container">
-                        <h2 class="project-title">Travel Tommorow</h2>
-                        <img src="./statics/spiceycafe.png" alt="spiceycafe.png" class="project-image">
-                    </div>
-                    <div class="description">
-                        <p class="project-description-text">SpiceyCafe is a restaurant management system. It allows to users to use the system based on their permission level</p>
-                        <p class="project-description-text">Skills involved.</p>
-                        <div class="skills-tag-container">
-                            <span class="skills-tag">java</span>
+                    <a href="https://github.com/pasinduweerasekara/SpiceyCafe" target="_blank">
+                        <div class="project-img-container">
+                            <h2 class="project-title">SpiceyCafe</h2>
+                            <img src="./statics/spiceycafe.png" alt="spiceycafe.png" class="project-image">
                         </div>
+                        <div class="description">
+                            <p class="project-description-text">SpiceyCafe is a restaurant management system. It allows
+                                to users to use the system based on their permission level</p>
+                            <p class="project-description-text">Skills involved.</p>
+                            
+                            <div class="skills-tag-container">
+                                <span class="skills-tag">Completed</span>
+                                <span class="skills-tag">java</span>
+                            </div>
 
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
-                
+
+
             </div>
         </section>
         <footer id="contacts">
@@ -190,11 +200,12 @@
                                 class="social-icon" /></div>
                         <div class="social-icon-container"><img src="./statics/facebook.svg" alt="facebook"
                                 class="social-icon" /></div>
-                        <div class="social-icon-container"><img src="./statics/twitterx.svg" alt="x" class="social-icon" />
+                        <div class="social-icon-container"><img src="./statics/twitterx.svg" alt="x"
+                                class="social-icon" />
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="footer-links-container">
                     <a class="footer-link-text" href="#about">About</a>
                     <a class="footer-link-text" href="#Skills">Skills</a>
@@ -212,5 +223,6 @@
     </div>
 </body>
 <script src="./app.js"></script>
+<script src="./typing.js"></script>
 
 </html>
