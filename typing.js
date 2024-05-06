@@ -50,7 +50,7 @@ class TypingObject {
 }
 
 // Create instances of TypingObject with different configurations
-const typingElement1 = new TypingObject(element = document.getElementById("type"), phrases = ["Pasindu Weerasekara,", "an undergraduate of University of Kelaniya,","someone who love to Code,"],loop=true,typingSpeed=100,pause=1000,deletingSpeed=20)
+const typingElement1 = new TypingObject(element = document.getElementById("type"), phrases = ["Pasindu Weerasekara,", "an undergraduate of University of Kelaniya,","someone who love to Code,",,"a dog lover 🐶"],loop=true,typingSpeed=100,pause=1000,deletingSpeed=20)
 
 // Start the typing and deleting animation for each element
 typingElement1.typeAndDelete()
