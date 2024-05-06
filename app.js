@@ -16,3 +16,12 @@ navlinks.forEach(element => {
         body.classList.remove("noscroll")
     })
 });
+
+window.addEventListener('scroll',()=>{
+    if(window.scrollY>120){
+        document.getElementById("navbar").classList.add("navbar-shadow")
+    }
+    if(window.scrollY<120){
+        document.getElementById("navbar").classList.remove("navbar-shadow")
+    }
+})
