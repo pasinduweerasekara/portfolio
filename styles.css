@@ -262,6 +262,7 @@ z-index: 99;
 .project-img-container{
 position: relative;
 height: 60%;
+max-height: 200px;
 overflow: hidden;
 }
 .project-img-container::after{
@@ -293,12 +294,16 @@ text-decoration: none;
 }
 .skills-tag-container{
 padding: .5rem;
+margin: .5rem;
+
 }
 .skills-tag{
 background-color: #d5d5d5;
 border-radius: .2rem;
 padding: 0 .1rem;
+margin: .1rem 0;
 color: #464545;
+display: inline-block;
 }
 #contacts{
 background-color: #1d1d1d;
